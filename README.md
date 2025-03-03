@@ -34,7 +34,16 @@ This project is an application that uses the Gmail API to read recent emails, su
    pip install -r requirements.txt
    ```
 
-4. Configure credentials:
+4. Create a Telegram Bot:
+
+   - Open Telegram and search for "@BotFather"
+   - Start a chat and send "/newbot"
+   - Follow the instructions to create your bot
+   - Save the bot token provided by BotFather
+   - Start a chat with your bot and send a message
+   - Get your chat ID by accessing: https://api.telegram.org/bot<YourBOTToken>/getUpdates
+
+5. Configure credentials:
    - Create a [credentials.json](http://_vscodecontentref_/0) file with your Gmail API credentials.
    - Create a [.env](http://_vscodecontentref_/1) file with the following variables:
      ```
